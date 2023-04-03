@@ -61,7 +61,7 @@ public class BinarySearchTree {
 
 
     public ArrayList<Integer> DFSInOrder() { // same concepts as pre-order and post-order DFS except now current node
-        // value added between looking left and right
+        // value added between looking left and right.
         ArrayList<Integer> results = new ArrayList<>(); //empty ArrayList created to store values of traversed nodes
 
         class Traverse { //constructor called from 'new' keyword below
